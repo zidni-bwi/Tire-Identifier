@@ -1,2 +1,2 @@
 # Tire-Identifier
-Image Processing from android device using python kivy
+An Image Processing App build for android device using python kivy
