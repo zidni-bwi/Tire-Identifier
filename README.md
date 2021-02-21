@@ -14,4 +14,4 @@ PIP:
 
 build APK:
 
-$ buildozer -v android debug
+`$ buildozer -v android debug`
