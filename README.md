@@ -3,7 +3,7 @@ An Image Processing App build for android device using python kivy
 
 requirement:
 
-- Python 3 ()
+- Python v3.x
 - Kivy (https://kivy.org/)
 - Buildozer (https://buildozer.io/)
 
