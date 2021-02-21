@@ -7,6 +7,9 @@ requirement:
 - Kivy (https://kivy.org/)
 - Buildozer (https://buildozer.io/)
 
+- Pillow (PIL)
+- Numpy
+
 build APK:
 
 $ buildozer -v android debug
