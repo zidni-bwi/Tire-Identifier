@@ -18,3 +18,4 @@ build APKs:
 
 Screenshot:
 https://raw.githubusercontent.com/zidni-bwi/Tire-Identifier/master/screenshot.png
+![alt text](https://github.com/zidni-bwi/Tire-Identifier/master/screenshot.png?raw=true)
