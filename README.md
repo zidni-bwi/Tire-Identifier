@@ -17,5 +17,5 @@ build APKs:
 `$ buildozer -v android debug`
 
 Screenshot:
-https://raw.githubusercontent.com/zidni-bwi/Tire-Identifier/master/screenshot.png
+![alt tag](https://raw.githubusercontent.com/zidni-bwi/Tire-Identifier/master/screenshot.png)
 ![alt text](https://github.com/zidni-bwi/Tire-Identifier/master/screenshot.png?raw=true)
