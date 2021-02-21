@@ -1,0 +1,324 @@
+{
+  "ban":[
+    {
+      "kategori":"All Terrain",
+      "noseri": "AT-02",
+      "ukuran": "17",
+      "drygrip":"✪✪✪✪",
+      "wetgrip":"✪✪✪",
+      "braking":"✪✪✪",
+      "handling":"✪✪✪✪",
+      "treadwear":"✪✪✪✪✪"
+    },
+    {
+      "kategori":"All Terrain",
+      "noseri": "AT-01",
+      "ukuran": "17",
+      "drygrip":"✪✪✪✪",
+      "wetgrip":"✪✪✪",
+      "braking":"✪✪✪",
+      "handling":"✪✪✪✪",
+      "treadwear":"✪✪✪✪✪"
+    },
+    {
+      "kategori":"All Terrain",
+      "noseri": "AT-007",
+      "ukuran": "17",
+      "drygrip":"✪✪✪",
+      "wetgrip":"✪✪✪✪",
+      "braking":"✪✪✪",
+      "handling":"✪✪✪",
+      "treadwear":"✪✪✪"
+    },
+    {
+      "kategori":"All Terrain",
+      "noseri": "MT-007",
+      "ukuran": "17",
+      "drygrip":"✪✪✪✪",
+      "wetgrip":"✪✪✪✪",
+      "braking":"✪✪✪✪",
+      "handling":"✪✪✪✪",
+      "treadwear":"✪✪✪✪"
+    },
+    {
+      "kategori":"All Terrain",
+      "noseri": "MT-007",
+      "ukuran": "17",
+      "drygrip":"✪✪✪✪",
+      "wetgrip":"✪✪✪✪",
+      "braking":"✪✪✪✪",
+      "handling":"✪✪✪✪",
+      "treadwear":"✪✪✪✪"
+    },
+    {
+      "kategori":"OFF ROAD",
+      "noseri": "MT-CROSS",
+      "ukuran": "17",
+      "drygrip":"✪✪✪✪",
+      "wetgrip":"✪✪✪✪",
+      "braking":"✪✪✪✪",
+      "handling":"✪✪✪✪",
+      "treadwear":"✪✪✪✪"
+    },
+    {
+      "kategori":"OFF ROAD",
+      "noseri": "MT-CROSS-R",
+      "ukuran": "17",
+      "drygrip":"✪✪✪✪✪",
+      "wetgrip":"✪✪✪✪",
+      "braking":"✪✪✪✪",
+      "handling":"✪✪✪✪✪",
+      "treadwear":"✪✪✪✪"
+    },
+    {
+      "kategori":"OFF ROAD",
+      "noseri": "MT-CROSS-X",
+      "ukuran": "17",
+      "drygrip":"✪✪✪✪✪",
+      "wetgrip":"✪✪✪✪",
+      "braking":"✪✪✪✪",
+      "handling":"✪✪✪✪",
+      "treadwear":"✪✪✪✪"
+    },
+    {
+      "kategori":"Racing",
+      "noseri": "D-01",
+      "ukuran": "17",
+      "drygrip":"✪✪✪✪✪",
+      "wetgrip":"✪",
+      "braking":"✪✪✪✪",
+      "handling":"✪✪✪✪✪",
+      "treadwear":"✪"
+    },
+    {
+      "kategori":"Racing",
+      "noseri": "D-01",
+      "ukuran": "17",
+      "drygrip":"✪✪✪✪✪",
+      "wetgrip":"✪",
+      "braking":"✪✪✪✪",
+      "handling":"✪✪✪✪✪",
+      "treadwear":"✪"
+    },
+    {
+      "kategori":"Sport",
+      "noseri": "SPORT-RAIN",
+      "ukuran": "17",
+      "drygrip":"✪✪✪✪",
+      "wetgrip":"✪✪✪✪✪",
+      "braking":"✪✪✪✪",
+      "handling":"✪✪✪✪",
+      "treadwear":"✪✪✪✪✪"
+    },
+    {
+      "kategori":"Sport",
+      "noseri": "SPORT-RAIN",
+      "ukuran": "17",
+      "drygrip":"✪✪✪✪",
+      "wetgrip":"✪✪✪✪✪",
+      "braking":"✪✪✪✪",
+      "handling":"✪✪✪✪",
+      "treadwear":"✪✪✪✪✪"
+    },
+    {
+      "kategori":"Sport",
+      "noseri": "TERMINAT-012",
+      "ukuran": "17",
+      "drygrip":"✪✪✪✪",
+      "wetgrip":"✪✪✪",
+      "braking":"✪✪✪✪",
+      "handling":"✪✪✪✪",
+      "treadwear":"✪✪✪✪"
+    },
+    {
+      "kategori":"Sport",
+      "noseri": "TERMINAT-012",
+      "ukuran": "17",
+      "drygrip":"✪✪✪✪",
+      "wetgrip":"✪✪✪",
+      "braking":"✪✪✪✪",
+      "handling":"✪✪✪✪",
+      "treadwear":"✪✪✪✪"
+    },
+    {
+      "kategori":"Touring",
+      "noseri": "S-33",
+      "ukuran": "17",
+      "drygrip":"✪✪✪✪",
+      "wetgrip":"✪✪✪✪",
+      "braking":"✪✪✪✪",
+      "handling":"✪✪✪✪",
+      "treadwear":"✪✪✪✪"
+    },
+    {
+      "kategori":"Touring",
+      "noseri": "S-33",
+      "ukuran": "17",
+      "drygrip":"✪✪✪✪",
+      "wetgrip":"✪✪✪✪",
+      "braking":"✪✪✪✪",
+      "handling":"✪✪✪✪",
+      "treadwear":"✪✪✪✪"
+    },
+    {
+      "kategori":"Touring",
+      "noseri": "S-123",
+      "ukuran": "17",
+      "drygrip":"✪✪✪✪",
+      "wetgrip":"✪✪✪",
+      "braking":"✪✪✪✪",
+      "handling":"✪✪✪✪✪",
+      "treadwear":"✪✪✪✪✪"
+    },
+    {
+      "kategori":"Touring",
+      "noseri": "S-123",
+      "ukuran": "17",
+      "drygrip":"✪✪✪✪",
+      "wetgrip":"✪✪✪",
+      "braking":"✪✪✪✪",
+      "handling":"✪✪✪✪✪",
+      "treadwear":"✪✪✪✪✪"
+    },
+    {
+      "kategori":"Touring",
+      "noseri": "SS-18",
+      "ukuran": "17",
+      "drygrip":"✪✪✪✪",
+      "wetgrip":"✪✪✪",
+      "braking":"✪✪✪✪",
+      "handling":"✪✪✪✪✪",
+      "treadwear":"✪✪✪✪✪"
+    },
+    {
+      "kategori":"Touring",
+      "noseri": "SS-18",
+      "ukuran": "17",
+      "drygrip":"✪✪✪✪",
+      "wetgrip":"✪✪✪",
+      "braking":"✪✪✪✪",
+      "handling":"✪✪✪✪✪",
+      "treadwear":"✪✪✪✪✪"
+    },
+    {
+      "kategori":"Touring",
+      "noseri": "S-01",
+      "ukuran": "17",
+      "drygrip":"✪✪✪",
+      "wetgrip":"✪✪✪✪",
+      "braking":"✪✪✪",
+      "handling":"✪✪✪",
+      "treadwear":"✪✪✪✪"
+    },
+    {
+      "kategori":"Touring",
+      "noseri": "S-01",
+      "ukuran": "17",
+      "drygrip":"✪✪✪",
+      "wetgrip":"✪✪✪✪",
+      "braking":"✪✪✪",
+      "handling":"✪✪✪",
+      "treadwear":"✪✪✪✪"
+    },
+    {
+      "kategori":"Touring",
+      "noseri": "S-22",
+      "ukuran": "17",
+      "drygrip":"✪✪✪✪",
+      "wetgrip":"✪✪✪",
+      "braking":"✪✪✪✪",
+      "handling":"✪✪✪✪",
+      "treadwear":"✪✪✪✪✪"
+    },
+    {
+      "kategori":"Touring",
+      "noseri": "S-22",
+      "ukuran": "17",
+      "drygrip":"✪✪✪✪",
+      "wetgrip":"✪✪✪",
+      "braking":"✪✪✪✪",
+      "handling":"✪✪✪✪",
+      "treadwear":"✪✪✪✪✪"
+    },
+    {
+      "kategori":"Urban",
+      "noseri": "S-88",
+      "ukuran": "17",
+      "drygrip":"✪✪✪✪",
+      "wetgrip":"✪✪✪✪",
+      "braking":"✪✪✪✪",
+      "handling":"✪✪✪✪✪",
+      "treadwear":"✪✪✪✪"
+    },
+    {
+      "kategori":"Urban",
+      "noseri": "S-88",
+      "ukuran": "17",
+      "drygrip":"✪✪✪✪",
+      "wetgrip":"✪✪✪✪",
+      "braking":"✪✪✪✪",
+      "handling":"✪✪✪✪✪",
+      "treadwear":"✪✪✪✪"
+    },
+    {
+      "kategori":"Urban",
+      "noseri": "SS-09-T",
+      "ukuran": "17",
+      "drygrip":"✪✪✪✪",
+      "wetgrip":"✪✪✪",
+      "braking":"✪✪✪",
+      "handling":"✪✪✪✪",
+      "treadwear":"✪✪✪✪"
+    },
+    {
+      "kategori":"Urban",
+      "noseri": "SS-09-T",
+      "ukuran": "17",
+      "drygrip":"✪✪✪✪",
+      "wetgrip":"✪✪✪",
+      "braking":"✪✪✪",
+      "handling":"✪✪✪✪",
+      "treadwear":"✪✪✪✪"
+    },
+    {
+      "kategori":"Urban",
+      "noseri": "ST-08",
+      "ukuran": "17",
+      "drygrip":"✪✪✪✪",
+      "wetgrip":"✪✪✪✪",
+      "braking":"✪✪✪✪",
+      "handling":"✪✪✪✪",
+      "treadwear":"✪✪✪✪✪"
+    },
+    {
+      "kategori":"Urban",
+      "noseri": "ST-08",
+      "ukuran": "17",
+      "drygrip":"✪✪✪✪",
+      "wetgrip":"✪✪✪✪",
+      "braking":"✪✪✪✪",
+      "handling":"✪✪✪✪",
+      "treadwear":"✪✪✪✪✪"
+    },
+    {
+      "kategori":"Touring",
+      "noseri": "S-123",
+      "ukuran": "17",
+      "drygrip":"✪✪✪✪",
+      "wetgrip":"✪✪✪",
+      "braking":"✪✪✪✪",
+      "handling":"✪✪✪✪✪",
+      "treadwear":"✪✪✪✪✪"
+    },
+    {
+      "kategori":"Touring",
+      "noseri": "S-123",
+      "ukuran": "17",
+      "drygrip":"✪✪✪✪",
+      "wetgrip":"✪✪✪",
+      "braking":"✪✪✪✪",
+      "handling":"✪✪✪✪✪",
+      "treadwear":"✪✪✪✪✪"
+    }
+  ]
+}

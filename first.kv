@@ -1,0 +1,534 @@
+BoxLayout:
+    orientation: "vertical"
+    canvas:
+        Color:
+            rgb: 1,1,1,1
+        Rectangle:
+            size: self.size
+    BoxLayout:
+        size_hint_y: None
+        height: 100
+        Button:
+            canvas:
+                Color:
+                    rgb: (0.282, 0.282, 0.282) if self.state == 'normal' else (1, 0, 0, 1)
+                Rectangle:
+                    size: (self.size)
+                    pos: (self.pos)
+            id: input1
+            on_release: app.show_kamera()
+            background_color: 0.247, 0.572, 0.709,0
+            GridLayout:
+                orientation: "horizontal"
+                height: self.parent.height
+                width: self.parent.width
+                pos: self.parent.pos
+                cols: 2
+                Image:
+                    source: "ikon/kamera.png"
+                    center_x: self.parent.center_x
+                    center_y: self.parent.center_y
+                Label:
+                    text: "Kamera"
+                    font_name: "Roboto-Bold"
+        Button:
+            canvas:
+                Color:
+                    rgb: (0.282, 0.282, 0.282) if self.state == 'normal' else (1, 0, 0, 1)
+                Rectangle:
+                    size: (self.size)
+                    pos: (self.pos)
+            id: input2
+            on_release: app.show_load()
+            background_color: 0.247, 0.572, 0.709,0
+            GridLayout:
+                height: self.parent.height
+                width: self.parent.width
+                pos: self.parent.pos
+                cols: 2
+                Image:
+                    source: "ikon/gambar.png"
+                    center_x: self.parent.center_x
+                    center_y: self.parent.center_y
+                Label:
+                    text: "Import File"
+                    font_name: "Roboto-Bold"
+    BoxLayout:
+        size_hint_y: None
+        height: 6
+        orientation: "horizontal"
+        canvas.before:
+            Color:
+                rgb: 1,0,0,1
+            Rectangle:
+                size: self.size
+                pos: self.pos
+    BoxLayout:
+        padding: 20,0,20,0
+        orientation: "vertical"
+        Label:
+            id: status
+            text: "! MASUKKAN CITRA DULU !"
+            font_name: "Roboto-Bold"
+            color: 1, 0, 0, 1
+            size_hint_y: None
+            padding_y: 5
+            size: self.texture_size
+        ScrollView:
+            bar_width: 5
+            canvas.before:
+                Color:
+                    rgba: 0, 0, 0, .1
+                Rectangle:
+                    size: self.size
+                    pos: self.pos
+            GridLayout:
+                orientation: "vertical"
+                size_hint_y: None
+                height: self.minimum_height
+                row_default_height: 50
+                cols: 2
+                padding: 20
+                Button:
+                    font_name: "Roboto-Bold"
+                    id: kr1
+                    # font_size: 0.31 * self.height
+                    text_size: self.size
+                    halign: 'left'
+                    color: 0,0,0,1
+                    background_color: 0,0,0,0
+                Button:
+                    font_name: "Roboto-Regular"
+                    id: kn1
+                    # font_size: 0.31 * self.height
+                    text_size: self.size
+                    halign: 'left'
+                    color: 0,0,0,1
+                    background_color: 0,0,0,0
+                    padding_x: 10
+                Button:
+                    font_name: "Roboto-Bold"
+                    id: kr3
+                    # font_size: 0.31 * self.height
+                    text_size: self.size
+                    halign: 'left'
+                    color: 0,0,0,1
+                    background_color: 0,0,0,0
+                Button:
+                    font_name: "Roboto-Regular"
+                    id: kn3
+                    # font_size: 0.31 * self.height
+                    text_size: self.size
+                    halign: 'left'
+                    color: 0,0,0,1
+                    background_color: 0,0,0,0
+                    padding_x: 10
+                Button:
+                    font_name: "Roboto-Bold"
+                    id: kr4
+                    # font_size: 0.31 * self.height
+                    text_size: self.size
+                    halign: 'left'
+                    color: 0,0,0,1
+                    background_color: 0,0,0,0
+                Button:
+                    font_name: "Roboto-Regular"
+                    id: kn4
+                    # font_size: 0.31 * self.height
+                    text_size: self.size
+                    halign: 'left'
+                    color: 0,0,0,1
+                    background_color: 0,0,0,0
+                    padding_x: 10
+                Button:
+                    font_name: "Roboto-Bold"
+                    id: kr5
+                    # font_size: 0.31 * self.height
+                    text_size: self.size
+                    halign: 'left'
+                    color: 0,0,0,1
+                    background_color: 0,0,0,0
+                Button:
+                    font_name: "Roboto-Regular"
+                    id: kn5
+                    # font_size: 0.31 * self.height
+                    text_size: self.size
+                    halign: 'left'
+                    color: 0,0,0,1
+                    background_color: 0,0,0,0
+                    padding_x: 10
+                Button:
+                    font_name: "Roboto-Bold"
+                    id: kr6
+                    # font_size: 0.31 * self.height
+                    text_size: self.size
+                    halign: 'left'
+                    color: 0,0,0,1
+                    background_color: 0,0,0,0
+                Button:
+                    font_name: "DejaVuSans" #bintang
+                    id: kn6
+                    # font_size: 0.31 * self.height
+                    text_size: self.size
+                    halign: 'left'
+                    color: 0,0,0,1
+                    background_color: 0,0,0,0
+                    padding_x: 10
+                Button:
+                    font_name: "Roboto-Bold"
+                    id: kr7
+                    # font_size: 0.31 * self.height
+                    text_size: self.size
+                    halign: 'left'
+                    color: 0,0,0,1
+                    background_color: 0,0,0,0
+                Button:
+                    font_name: "DejaVuSans"
+                    id: kn7
+                    # font_size: 0.31 * self.height
+                    text_size: self.size
+                    halign: 'left'
+                    color: 0,0,0,1
+                    background_color: 0,0,0,0
+                    padding_x: 10
+                Button:
+                    font_name: "Roboto-Bold"
+                    id: kr8
+                    # font_size: 0.31 * self.height
+                    text_size: self.size
+                    halign: 'left'
+                    color: 0,0,0,1
+                    background_color: 0,0,0,0
+                Button:
+                    font_name: "DejaVuSans"
+                    id: kn8
+                    # font_size: 0.31 * self.height
+                    text_size: self.size
+                    halign: 'left'
+                    color: 0,0,0,1
+                    background_color: 0,0,0,0
+                    padding_x: 10
+                Button:
+                    font_name: "Roboto-Bold"
+                    id: kr9
+                    # font_size: 0.31 * self.height
+                    text_size: self.size
+                    halign: 'left'
+                    color: 0,0,0,1
+                    background_color: 0,0,0,0
+                Button:
+                    font_name: "DejaVuSans"
+                    id: kn9
+                    # font_size: 0.31 * self.height
+                    text_size: self.size
+                    halign: 'left'
+                    color: 0,0,0,1
+                    background_color: 0,0,0,0
+                    padding_x: 10
+                Button:
+                    font_name: "Roboto-Bold"
+                    id: kr10
+                    # font_size: 0.31 * self.height
+                    text_size: self.size
+                    halign: 'left'
+                    color: 0,0,0,1
+                    background_color: 0,0,0,0
+                Button:
+                    font_name: "DejaVuSans"
+                    id: kn10
+                    # font_size: 0.31 * self.height
+                    text_size: self.size
+                    halign: 'left'
+                    color: 0,0,0,1
+                    background_color: 0,0,0,0
+                    padding_x: 10
+                Button:
+                    font_name: "Roboto-Bold"
+                    id: kr2
+                    # font_size: 0.31 * self.height
+                    text_size: self.size
+                    halign: 'left'
+                    color: 0,0,0,1
+                    background_color: 0,0,0,0
+                Button:
+                    font_name: "DejaVuSans"
+                    id: kn2
+                    # font_size: 0.31 * self.height
+                    text_size: self.size
+                    halign: 'left'
+                    color: 0,0,0,1
+                    background_color: 0,0,0,0
+                    padding_x: 10
+                Button:
+                    font_name: "Roboto-Bold"
+                    id: kr11
+                    # font_size: 0.31 * self.height
+                    text_size: self.size
+                    halign: 'left'
+                    color: 0,0,0,1
+                    background_color: 0,0,0,0
+                Button:
+                    font_name: "DejaVuSans"
+                    id: kn11
+                    # font_size: 0.31 * self.height
+                    text_size: self.size
+                    halign: 'left'
+                    color: 0,0,0,1
+                    background_color: 0,0,0,0
+                    padding_x: 10
+                Button:
+                    font_name: "Roboto-Bold"
+                    id: kr12
+                    # font_size: 0.31 * self.height
+                    text_size: self.size
+                    halign: 'left'
+                    color: 0,0,0,1
+                    background_color: 0,0,0,0
+                Button:
+                    font_name: "DejaVuSans"
+                    id: kn12
+                    # font_size: 0.31 * self.height
+                    text_size: self.size
+                    halign: 'left'
+                    color: 0,0,0,1
+                    background_color: 0,0,0,0
+                    padding_x: 10
+    BoxLayout:
+        size_hint_y: None
+        # spacing: 5
+        height: 2
+        orientation: "horizontal"
+        canvas.before:
+            Color:
+                rgb: 1,1,1,1
+            Rectangle:
+                size: self.size
+                pos: self.pos
+    BoxLayout:
+        size_hint_y: None
+        height: 80
+        orientation: "horizontal"
+        canvas:
+            Color:
+                rgb: 0.282, 0.282, 0.282
+            Rectangle:
+                size: self.size
+                pos: self.pos
+        Label:
+            text: "Citra Gambar"
+            font_name: "Roboto-Bold"
+            color: 1,1,1, 1
+        Button:
+            id: btn
+            disabled: True
+            on_release: app.classify_image()
+            text: "SCAN"
+            color: 1,1,1,1
+            background_color: 0, 0, 0, 0
+            font_name: "Roboto-Bold"
+            # font_size: 0.3 * self.height
+            # size: self.texture_size
+            canvas.before:
+                Color:
+                    rgb: .807, .807, .807
+                Rectangle:
+                    size: self.size
+                    pos: self.pos
+        Label:
+            text: "Citra Templat"
+            font_name: "Roboto-Bold"
+            color: 1,1,1, 1
+    BoxLayout:
+        size_hint_y: None
+        height: 2
+        orientation: "horizontal"
+        canvas.before:
+            Color:
+                rgb: 0.65,0.65,0.65
+            Rectangle:
+                size: self.size
+                pos: self.pos
+    BoxLayout:
+        size_hint_y: None
+        # spacing: 5
+        height: 6
+        orientation: "horizontal"
+        canvas.before:
+            Color:
+                rgb: 0.988, 0.701, 0.29, 1
+            Rectangle:
+                size: self.size
+                pos: self.pos
+    BoxLayout:
+        orientation: "horizontal"
+        canvas.before:
+            Color:
+                rgb: 1, 1, 1, 1
+            Rectangle:
+                size: self.size
+                pos: self.pos
+        Image:
+            id: image
+            opacity: 1
+            source: "ikon/empty.png"
+            canvas.before:
+                Color:
+                    rgb: 0.282, 0.282, 0.282
+                Rectangle:
+                    size: self.size
+                    pos: self.pos
+        Image:
+            id: templ
+            opacity: 1
+            source: "ikon/empty.png"
+            canvas.before:
+                Color:
+                    rgb: 0.282, 0.282, 0.282
+                Rectangle:
+                    size: self.size
+                    pos: self.pos
+    BoxLayout:
+        size_hint_y: None
+        height: 2
+        orientation: "horizontal"
+    BoxLayout:
+        size_hint_y: None
+        height: 40
+        orientation: "horizontal"
+        canvas.before:
+            Color:
+                rgb: .807, .807, .807
+            Rectangle:
+                size: self.size
+                pos: self.pos
+        Label:
+            id: xy
+            text: "x = ... y = ..."
+            font_name: "Roboto-Bold"
+            color: 1,1,1,1
+<LoadDialog>:
+    id: loadd
+    BoxLayout:
+        size: root.size
+        pos: root.pos
+        orientation: "vertical"
+        spacing: 10
+        padding: 10
+        BoxLayout:
+            canvas.before:
+                Color:
+                    rgba: 0,0,0,.4
+                Rectangle:
+                    size: self.size
+                    pos: self.pos
+            FileChooserListView:
+                id: filechooser
+                bar_width: 5
+                path: "datatest_gbesar"
+                on_selection: loadd.selected(filechooser.selection)
+        BoxLayout:
+            size_hint_y: None
+            height: 50
+            Label:
+                text: "Preview"
+                font_name: "DejaVuSans"
+        Image:
+            id: ban
+            opacity: 0
+            source: ""
+        BoxLayout:
+            size_hint_y: None
+            height: 20
+        BoxLayout:
+            size_hint_y: None
+            height: 75
+            spacing: 40
+            Button:
+                on_release: root.cancel()
+                text: "BATAL"
+                color: 1,1,1,1
+                background_color: 0, 0, 0, 0
+                font_name: "Roboto-Bold"
+                # font_size: 0.31 * self.height
+                canvas.before:
+                    Color:
+                        rgb: .807, .807, .807
+                    Rectangle:
+                        size: self.size
+                        pos: self.pos
+            Button:
+                on_release: app.load(filechooser.selection)
+                text: "PILIH"
+                color: 1,1,1,1
+                background_color: 0, 0, 0, 0
+                font_name: "Roboto-Bold"
+                # font_size: 0.31 * self.height
+                canvas.before:
+                    Color:
+                        rgb: 1,0,0
+                    Rectangle:
+                        size: self.size
+                        pos: self.pos
+<Kamera>:
+    id: kame
+    BoxLayout:
+        size: root.size
+        pos: root.pos
+        orientation: 'vertical'
+        Camera:
+            id: camera
+            resolution: (640, 480)
+            play: True
+            canvas.before:
+                PushMatrix
+                Rotate:
+                    angle: -90
+                    origin: self.center
+            canvas.after:
+                PopMatrix
+            Image:
+                id: pembatas
+                source: "pembatas.png"
+                center_x: self.parent.center_x
+                center_y: self.parent.center_y
+                size: 450, 600
+                allow_stretch: True
+                show: False
+                canvas.before:
+                    PushMatrix
+                    Rotate:
+                        angle: -90
+                        origin: self.center
+                canvas.after:
+                    PopMatrix
+        BoxLayout:
+            size_hint_y: None
+            height: 75
+            spacing: 20
+            Button:
+                on_release: root.cancel()
+                text: "BATAL"
+                color: 1,1,1,1
+                background_color: 0, 0, 0, 0
+                font_name: "Roboto-Bold"
+                # font_size: 0.31 * self.height
+                canvas.before:
+                    Color:
+                        rgb: .807, .807, .807
+                    Rectangle:
+                        size: self.size
+                        pos: self.pos
+            Button:
+                on_press: kame.capture()
+                on_release: app.foto()
+                text: "CAPTURE"
+                color: 1,1,1,1
+                background_color: 0, 0, 0, 0
+                font_name: "Roboto-Bold"
+                # font_size: 0.31 * self.height
+                canvas.before:
+                    Color:
+                        rgb: 1,0,0
+                    Rectangle:
+                        size: self.size
+                        pos: self.pos
