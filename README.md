@@ -7,7 +7,7 @@ requirement:
 - Kivy (https://kivy.org/)
 - Buildozer (https://buildozer.io/)
 
-PIP:
+Python-Pip:
 
 - Pillow (PIL)
 - Numpy
