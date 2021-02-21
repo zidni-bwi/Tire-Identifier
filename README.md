@@ -15,3 +15,6 @@ Python-Pip:
 build APKs:
 
 `$ buildozer -v android debug`
+
+Screenshot:
+https://raw.githubusercontent.com/zidni-bwi/Tire-Identifier/master/screenshot.png
