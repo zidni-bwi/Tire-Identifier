@@ -1,6 +1,12 @@
 # Tire-Identifier
 An Image Processing App build for android device using python kivy
 
-build APK
+requirement:
+
+- Python 3 ()
+- Kivy (https://kivy.org/)
+- Buildozer (https://buildozer.io/)
+
+build APK:
 
 $ buildozer -v android debug
