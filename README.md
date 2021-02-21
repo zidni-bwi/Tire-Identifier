@@ -12,6 +12,6 @@ PIP:
 - Pillow (PIL)
 - Numpy
 
-build APK:
+build APKs:
 
 `$ buildozer -v android debug`
