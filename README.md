@@ -1,5 +1,7 @@
 # Tire-Identifier
-An Image Processing App build for android device using python kivy with Template Matching Method
+An Image Processing App build for android device using python kivy
+
+using Template Matching Method with Adaptive Normalized Cross Correlation (ANCC)
 
 requirement:
 
