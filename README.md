@@ -1,5 +1,5 @@
 # Tire-Identifier
-An Image Processing App build for android device using python kivy
+An Image Processing App build for android device using python kivy with Template Matching Method
 
 requirement:
 
